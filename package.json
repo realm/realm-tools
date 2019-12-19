@@ -1,0 +1,27 @@
+{
+  "name": "realm-tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Various tools for testing Realm",
+  "author": {
+    "name": "Realm",
+    "email": "help@realm.io",
+    "url": "https://realm.io"
+  },
+  "scripts": {
+    "postinstall": "lerna bootstrap",
+    "build": "lerna exec -- npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realm/realm-tools.git"
+  },
+  "license": "SEE LICENSE IN ./LICENSE",
+  "bugs": {
+    "url": "https://github.com/realm/realm-tools/issues"
+  },
+  "homepage": "https://github.com/realm/realm-tools#readme",
+  "dependencies": {
+    "lerna": "^3.19.0"
+  }
+}

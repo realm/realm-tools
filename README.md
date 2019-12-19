@@ -1,6 +1,13 @@
 # realm-tools
 
-Various tools for testing Realm
+Various tools for testing Realm.
+
+To install dependencies and build all packages, run
+
+    npm install
+    npm run build
+
+See the individual package READMEs for instructions on running them.
 
 ## Packages
 

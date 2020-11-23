@@ -4,7 +4,8 @@
   "description": "Automated migration of Realm file sync labels",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'Nothing to build ...'"
   },
   "author": "Kræn Hansen <kraen.hansen@mongodb.com>",
   "license": "ISC",

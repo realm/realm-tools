@@ -1,0 +1,15 @@
+{
+  "name": "ros-sync-label-migrator",
+  "version": "1.0.0",
+  "description": "Automated migration of Realm file sync labels",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kræn Hansen <kraen.hansen@mongodb.com>",
+  "license": "ISC",
+  "dependencies": {
+    "realm": "^6.1.5",
+    "yargs": "^16.1.1"
+  }
+}

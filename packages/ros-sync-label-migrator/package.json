@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "Automated migration of Realm file sync labels",
   "main": "index.js",
+  "bin": "./bin/ros-sync-label-migrator",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "echo 'Nothing to build ...'"
   },
   "author": "Kræn Hansen <kraen.hansen@mongodb.com>",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realm/realm-tools.git"
+  },
+  "license": "SEE LICENSE IN ../../LICENSE",
+  "homepage": "https://github.com/realm/realm-tools#readme",
   "dependencies": {
     "realm": "^6.1.5",
     "yargs": "^16.1.1"

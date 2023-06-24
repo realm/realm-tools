@@ -16,7 +16,7 @@
   "license": "SEE LICENSE IN ../../LICENSE",
   "homepage": "https://github.com/realm/realm-tools#readme",
   "dependencies": {
-    "realm": "^6.1.5",
+    "realm": "^11.10.1",
     "yargs": "^16.1.1"
   }
 }
